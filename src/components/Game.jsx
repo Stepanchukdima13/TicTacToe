@@ -4,18 +4,13 @@ import Canvas from "./Canva";
 import "./game.css"
 import {calculateWinner} from "../helper";
 
-function Game(props) {
+function Game() {
     const [canvas, setCanvas] = useState(Array(9).fill(null))
     const [xIsNext, setXIsNext] = useState(true)
     const winner = calculateWinner(canvas)
 
     const startNewGame = () =>{
         setCanvas(Array(9).fill(null))
-    }
-
-    const editGamePosition = () =>{
-        let text
-        xIsNext ? text ="Хід 0": text ="Хід X"
     }
 
     const handleClick = (index) =>{
