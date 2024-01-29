@@ -1,0 +1,25 @@
+.wrapper{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn-clear-canvas_wrapper{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-clear-canvas{
+    border-radius: 20px;
+    border-color: firebrick;
+    background-color: #fff;
+    padding: 30px;
+}
+
+.btn-clear-canvas:hover{
+    background-color: #e1e1e1;
+    transition: 300ms;
+}

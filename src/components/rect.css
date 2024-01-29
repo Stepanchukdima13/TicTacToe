@@ -1,0 +1,19 @@
+.rect_wrapper{
+    height: 150px;
+    width: 150px;
+    display: flex;
+    background-color: gray;
+    margin: 10px 5px ;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+}
+
+
+
+.rect_wrapper:hover{
+    background-color: #afafaf;
+    border-color: #4d0000;
+    border-radius: 1px;
+    transition: all 500ms;
+}
